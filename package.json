@@ -1,0 +1,23 @@
+{
+  "name": "image-popup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam-ops/js-image-popup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivam-ops/js-image-popup/issues"
+  },
+  "homepage": "https://github.com/shivam-ops/js-image-popup#readme"
+}
