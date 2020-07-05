@@ -7,6 +7,13 @@ previews.forEach(preview => {
     preview.addEventListener("click", () => {
         modal.classList.add("open");
         original.classList.add("open");
+
+        //Dyanmic Change text and image
+
+        const orignalSrc = preview.getAttribute("data-original");
+        original.src = `./full/${orignalSrc}`;
+        const altTxt = preview.alt;
+        imgText.textContent = altTxt;
     });
 });
 

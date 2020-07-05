@@ -55,7 +55,7 @@
     transition: all 0.25s ease-out;
 }
 
-full-img.open {
+.full-img.open {
     transform: translate(-50%, -50%) scale(1);
 }
 
