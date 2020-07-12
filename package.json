@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "homepage": "https://shivam-ops.github.io/js-image-popup.git",
   "dependencies": {},
   "devDependencies": {
     "live-server": "^1.2.1"
   },
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
